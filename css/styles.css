@@ -42,7 +42,6 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  position: relative;
 }
 .link-header:hover {
   color: #404bbf;
@@ -50,7 +49,12 @@ a {
 .link-header:focus {
   color: #404bbf;
 }
-.link-header:active::after {
+.current{
+ position: relative;
+ color: #404bbf;
+}
+
+.current::after {
   content: "";
   width: 100%;
   position: absolute;
