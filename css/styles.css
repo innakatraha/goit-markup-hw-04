@@ -43,9 +43,14 @@ a {
   padding-bottom: 24px;
   display: block;
   position: relative;
+}
+.link-header:hover {
   color: #404bbf;
 }
-.link-header::after {
+.link-header:focus {
+  color: #404bbf;
+}
+.link-header:active::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -53,13 +58,7 @@ a {
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
-  border-radius: 2px; 
-}
-.link-header:hover {
-  color: #404bbf;
-}
-.link-header:focus {
-  color: #404bbf;
+  border-radius: 2px;
 }
 .link-header:active {
   color: #404bbf;
@@ -312,7 +311,6 @@ img {
   background-color: #f4f4fd;
 }
 .icon {
-  margin: 24px 100px;
 }
 .svg-icons {
   width: 232px;
