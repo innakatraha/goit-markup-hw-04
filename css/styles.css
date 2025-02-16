@@ -209,6 +209,7 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .bakcground-section-tree {
   background-color: #ffffff;
@@ -407,4 +408,12 @@ img {
 
 .footer-logo-container {
   margin-right: 120px;
+}
+.footer-container-svg {
+  display: flex;
+  gap: 16px;
+}
+.icons-container-footer {
+  width: 40px;
+  height: 40px;
 }
